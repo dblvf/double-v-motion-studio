@@ -1,15 +1,13 @@
 # DOUBLE-V Motion Studio
-
 Mes textes. Ma vérité. Aucun filtre.
 
-Studio de création de teasers musicaux. Ouvrir le site GitHub Pages, importer un son, personnaliser les informations, puis générer et télécharger le MP4.
+## Version 13
+Surprise, Nocturne et Énergique utilisent des fonds vidéo. Motion, Cinéma et Minimal conservent leur rendu. Le fondu sonore de fin est conservé.
 
-Les projets sont enregistrés localement dans le navigateur. Ils ne sont pas synchronisés entre appareils ni entre les anciennes et nouvelles adresses du site.
+Affiche de sortie indépendante en PNG 1080 × 1350 : thème choisi, titre, artiste, logos et identifiants Instagram, YouTube et TikTok. Chaque réseau peut être masqué ; les lignes restantes sont recentrées. Les préférences sont conservées dans ce navigateur et enregistrées dans les projets générés.
 
-Le site fonctionne sans serveur applicatif. Les ressources sont servies depuis la racine du dépôt.
+Les projets restent locaux à cet appareil et ce navigateur. Les anciens MP4 doivent être régénérés pour adopter les nouveaux fonds.
 
-## Version 12
+Sources : studio-source-v13.zip. Extraire, npm ci, placer les fichiers vidéo et poster-*.jpg du dépôt dans dist/media, puis npm run build. Les ressources profil et polices sont incluses. Pour publier à plat comme ici, supprimer les préfixes media/, profile/ et fonts/ dans le bundle et la feuille CSS.
 
-Six directions visuelles distinctes : Motion, Surprise, Nocturne, Cinéma, Énergique et Minimal. Fondu de fin audio de 2,2 secondes (adapté aux extraits courts). Les anciens MP4 restent disponibles et peuvent être régénérés.
-
-Sources de développement : studio-source-v12.zip. Extraire, npm ci puis npm run build. Pour GitHub Pages à la racine, copier les ressources de dist en conservant leurs dossiers, ou aplatir les ressources et adapter les chemins profile/ et fonts/ comme dans la version publiée.
+Crédits vidéo : MEDIA-CREDITS.md. Les vidéos sont préparées en Full HD ; aucun export 4K natif n’est annoncé.
